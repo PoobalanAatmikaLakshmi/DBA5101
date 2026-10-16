@@ -25,6 +25,13 @@ How sensitive is rail ticket demand to price? And how much does the answer chang
 
 **Takeaway:** Demand is price-inelastic overall, but elasticity varies sharply by customer segment and booking stage. Pricing strategy should be segment- and timing-aware rather than uniform.
 
+## 👩‍💻 My Contributions
+- **Exploratory data analysis:** led the EDA and produced all of the report's visualisations (price/volume distributions, lead-time curves, and heatmaps by train, cabin class and customer category).
+- **120-day analysis sample:** came up with the idea of a fixed booking window to remove the truncation bias in the raw data (see Approach, step 2).
+- **Lead-time categories:** defined the 0–2 / 3–7 / 8–14 / 15–30 / >30-day booking stages from structural breaks in the data.
+- **Baseline model:** built Model 0, the fixed-effects OLS benchmark without lead-time controls.
+- **Report integration:** combined the team's analyses and outputs into the final report.
+
 ## 🛠️ Approach
 
 ### 1. Exploratory Data Analysis
@@ -58,7 +65,7 @@ ln(Q) = α + β·ln(P) + γ'X + δ_LeadTime + ε
 
 ## 💡 Skills Demonstrated
 - **Causal-thinking & econometrics:** omitted-variable bias, selection/truncation bias, fixed effects, heteroskedasticity-robust inference, endogeneity
-- **Data analysis in Python:** cleaning, feature engineering (booking lead time), EDA and visualisation
+- **Data analysis in Python:** EDA, lead-time segmentation and data visualisation
 - **Analytical judgement:** justifying modelling choices with data trade-offs and academic literature
 - **Communication:** turning statistical output into pricing insights for business readers
 
