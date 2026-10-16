@@ -5,7 +5,7 @@
 `Python` · `Econometrics` · `OLS Regression` · `Fixed Effects` · `Robust Inference` · `Pricing Analytics`
 
 > NUS Master of Science in Business Analytics, DBA5101 Analytics in Managerial Economics (group project, 5 members)
-> 📄 **[Read the full report (PDF)](Train%20Demand.pdf)**
+> 📄 **[Read the full report (PDF)](Train%20Demand.pdf)** · 💻 **[View the code (Jupyter notebook)](DBA5101_Final_Report_V1.ipynb)**
 
 ---
 
@@ -73,6 +73,9 @@ ln(Q) = α + β·ln(P) + γ'X + δ_LeadTime + ε
 | File | Description |
 |---|---|
 | [`Train Demand.pdf`](Train%20Demand.pdf) | Full project report: methodology, results, figures and regression output |
+| [`DBA5101_Final_Report_V1.ipynb`](DBA5101_Final_Report_V1.ipynb) | Python notebook (pandas, statsmodels, matplotlib): EDA, sample construction, all models and robustness tests, with outputs |
+
+> **Data:** the booking dataset (`Data-GP1-revised-final.csv`) was provided for the course and is not included. To re-run the notebook, place it in the same folder as the notebook.
 
 ## 📚 References
 1. Yuan, Y., Ran, W., & Zhang, S. (2026). *Analysis of advance purchase behavior of air–rail passengers with ticket booking data.* Applied Sciences, 16(13), 6300. https://doi.org/10.3390/app16136300
